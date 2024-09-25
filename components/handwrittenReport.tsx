@@ -3,7 +3,7 @@ import { FormEvent } from "react"
 import { useState } from "react"
 import axios from "axios"
 import React from 'react'
-import { caveat, dancing_script } from '@/components/fonts'
+// import { caveat, dancing_script } from '@/components/fonts'
 import { useQuery } from "@tanstack/react-query"
 import ReactMarkdown from 'react-markdown'
 
@@ -50,7 +50,7 @@ const HandwrittenReport = (props: propsType) => {
     }
 
     return (
-        <div className="collapse collapse-arrow bg-base-200 collapse-open">
+        <div className="collapse collapse-arrow bg-base-200">
             <input type="radio" name={props.radioGroup} />
             <div className="collapse-title text-xl font-medium">Report Writing
                 <hr />
